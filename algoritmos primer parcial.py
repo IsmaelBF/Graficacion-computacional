@@ -42,7 +42,7 @@ def graficar_puntos(puntos, x0, y0, x1, y1):
     plt.xlim(min_x - margen, max_x + margen)
     plt.ylim(min_y - margen, max_y + margen)
     # Configuración de cuadricula
-    plt.legend(bbox_to_anchor=(1.05, 1), loc="upper left", borderaxespad=0.0)  # leyenda
+    plt.legend(bbox_to_anchor=(-0.01, 0), loc="lower right", borderaxespad=0.0)  # leyenda
     plt.title(f"Línea de Bresenham de ({x0}, {y0}) a ({x1}, {y1})")
     plt.xlabel("Eje X")
     plt.ylabel("Eje Y")
